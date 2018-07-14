@@ -1,0 +1,7 @@
+ycwang@ycwang-ThinkPad-P50:~/work/ycwang/desktop/android-things/images/imx7d_pico-5.0$ simg2img oem.img oem-raw.img
+ycwang@ycwang-ThinkPad-P50:~/work/ycwang/desktop/android-things/images/imx7d_pico-5.0$ ls
+android-info.txt  boot.img  flash-all.bat  flash-all.myself.sh  flash-all.sh  gapps.img  oem.img  oem-raw.img  partition-table.img  system.img  u-boot.imx  vbmeta.img
+ycwang@ycwang-ThinkPad-P50:~/work/ycwang/desktop/android-things/images/imx7d_pico-5.0$ file oem-raw.img
+oem-raw.img: Linux rev 1.0 ext2 filesystem data, UUID=8ec89b07-796d-0757-b45e-ed3b3b960e08, volume name "oem" (extents) (large files)
+
+adb pull /system/media/bootanimation.zip .
